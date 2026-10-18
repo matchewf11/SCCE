@@ -32,6 +32,7 @@ fn main() {
             , gyro_x real
             , gyro_y real
             , gyro_z real
+            , created_at text default current_timestamp
         )",
         (),
     )
